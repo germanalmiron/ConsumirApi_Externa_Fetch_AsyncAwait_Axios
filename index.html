@@ -1,30 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+<!-- <head> -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ConsumirApi Externa</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>ConsumirApi-Externa</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
+
 </head>
 
 <body>
-
-    <div class="col-sm-12 col-md-6 py-4 bg-warning text-center text-light">
-        <h1>CONSUMO DE API EXTERNA</h1><br><br>
+        <h1 id="h1-uno">CONSUMO DE API EXTERNA--PLAYHOLDER--Usando FETCH--</h1><br><br>
         <ol id="fetchUsuarios"></ol>
-    </div>
 
-    <div class="col-sm-12 col-md-6 py-4 bg-info text-center text-light">
-        <h2 class="mb-0">---PLAYHOLDER---</h2>
-    </div>
+        <h1 id="h1-dos">CONSUMO DE API EXTERNA--PLAYHOLDER--Usando Async Await--</h1><br><br>
+        <ol id="fechUsuarios-AsyncAwait"></ol>
 
-    <script src="./consumoApi.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+        <h1 id="h1-tres">CONSUMO DE API EXTERNA--PLAYHOLDER--Usando Libreria Axios--</h1><br><br>
+        <ol id="requestAxios"></ol>
+
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <script src="./consumoApi.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        
 </body>
 </html>

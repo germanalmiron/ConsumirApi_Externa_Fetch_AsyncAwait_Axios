@@ -1,9 +1,28 @@
-body{
-    background-color: #333; color: white;
+
+#h1-uno{
+    text-align: center;
+    background-color: red;
 }
 
-h1{
-    background-color: rgb(94, 94, 172);
+#h1-dos{
+    text-align: center;
+    background-color: blue;
 }
 
+#h1-tres{
+    text-align: center;
+    background-color: greenyellow;
+}
+
+#fetchUsuarios{
+    background-color:cyan;
+}
+
+#fechUsuarios-AsyncAwait{
+    background-color:coral;
+}
+
+#requestAxios{
+    background-color: chocolate;
+}
 
